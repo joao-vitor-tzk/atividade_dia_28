@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+</head>
+
+<body>
+    <h1> DO 1 ao 20</h1>
+    <div id="aaa"></div>
+    <div id ="bbb"></div>
+    <script>
+        let num = ""
+        let numm= ""
+        for (let t = 1; t <= 20; t++) {
+            num += t + "/" + 20 + "</br>"
+
+        }
+        document.getElementById("aaa").innerHTML = num
+
+       for (let index = 2; index <=20 ; index++) {
+        numm += " 1/" + index + "</br>"
+        
+       }
+       document.getElementById("bbb").innerHTML= "1"+ "</br>" + numm
+    </script>
+
+</body>
+
+</html>
